@@ -49,6 +49,9 @@ set ignorecase
 set smartcase
 map <leader><space> :let @/=''<cr> " clear search
 
+" Splits
+set splitbelow
+set splitright
 
 """""""\ Pathogen \"""""""
 execute pathogen#infect()
